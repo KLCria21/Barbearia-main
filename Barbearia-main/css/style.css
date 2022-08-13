@@ -8,6 +8,7 @@ body{
 header{
 background-color: aliceblue;
 margin: 0px;
+padding: 5mm;
 }
 
 footer{
@@ -19,6 +20,7 @@ footer{
    margin-right:8px;
    text-align: center;
    max-height: 40px;
+   
 }
 
  .abas ul{ 
@@ -58,14 +60,27 @@ footer{
  
  }
 
-.container{
 
-   background-color: #FDCE20;
-
+ #conteudo{
+   margin-top: 0%;
+   padding: 50px;
+   width: 40%;
+   margin-left: 32%;
+   border-radius: 10px;
+   background: aliceblue;
+   color: rgb(0, 0, 0);
+   text-align: center;
 }
 
-.img{
+#form{
 
-   
-}  
+   text-align: center;
+}
+
+.list{
+
+   text-decoration: none;
+}
+
+
 
