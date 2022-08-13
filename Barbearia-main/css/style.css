@@ -1,0 +1,71 @@
+*{
+   margin: 0;
+}
+body{
+   background-color: #0F0E13;
+}
+
+header{
+background-color: aliceblue;
+margin: 0px;
+}
+
+footer{
+   color:white;
+}
+
+.imglogo{
+   margin-bottom: 0px;
+   margin-right:8px;
+   text-align: center;
+   max-height: 40px;
+}
+
+ .abas ul{ 
+    list-style: none;
+ }
+ .abas li {
+   background-color: #FDCE20;
+    
+   display: inline;  
+   border-radius: 13px;
+   padding-left: 7px;
+   padding: 10px;
+   width:50mm ; 
+ }
+
+ .abas li a{
+   text-decoration: none;
+   color: #0F0E13;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+ }
+
+ .abas li:hover{
+   background-color: yellow;
+   
+
+
+ }
+
+ .galeria{
+
+   background-color: #FDCE20;
+   float: right;
+   padding-bottom:40% ;
+   margin-top: 20px;
+ 
+ }
+
+.container{
+
+   background-color: #FDCE20;
+
+}
+
+.img{
+
+   
+}  
+
