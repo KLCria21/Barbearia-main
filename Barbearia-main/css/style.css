@@ -21,14 +21,13 @@ footer{
    text-align: center;
    max-height: 40px;
    
-}
+ }
 
  .abas ul{ 
     list-style: none;
  }
  .abas li {
    background-color: #FDCE20;
-    
    display: inline;  
    border-radius: 13px;
    padding-left: 7px;
@@ -41,13 +40,10 @@ footer{
    color: #0F0E13;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
-
  }
 
  .abas li:hover{
    background-color: yellow;
-   
-
 
  }
 
@@ -59,7 +55,6 @@ footer{
    margin-top: 20px;
  
  }
-
 
  #conteudo{
    margin-top: 0%;
@@ -80,6 +75,10 @@ footer{
 .list{
 
    text-decoration: none;
+}
+
+#botao{
+   color: red;
 }
 
 

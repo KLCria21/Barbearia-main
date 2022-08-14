@@ -1,53 +1,54 @@
 function validar()
 {
 
-var nome = formulario.nome;
+  var nome = formulario.nome;
 
-if(nome.value == ""){
-    alert("nome não informado");
+    if(nome.value == ""){
+        alert("nome não informado");
 
-    nome.focus();
-}
+        nome.focus();
+    }
 
-var email = formulario.email;
+  var email = formulario.email;
 
-if(email.value == ""){
-    alert("email não informado");
+    if(email.value == ""){
+        alert("email não informado");
 
-    email.focus();
-}
+        email.focus();
+    }
 
-var cel = formulario.cel;
+  var cel = formulario.cel;
+  var regex = new RegExp(cel);
 
-if(cel.value == ""){
-    alert("Número de celular não informado");
+    if(cel.value == ""){
+        alert("Número de celular não informado");
 
-    cel.focus();
-}
+        cel.focus();
+    }
 
-var senha = formulario.senha;
+  var senha = formulario.senha;
 
-if(senha.value == ""){
-    alert("Senha não informada");
+    if(senha.value == ""){
+        alert("Senha não informada");
 
-    senha.focus();
-}
+        senha.focus();
+    }
 
-var Csenha = formulario.Csenha;
+  var Csenha = formulario.Csenha;
 
-var senha = document.getElementById("senha")
-   Csenha = document.getElementById("Csenha");
+  var senha = document.getElementById("senha")
+    Csenha = document.getElementById("Csenha");
 
-function validar(){
-  if(senha.value !== Csenha.value) {
-    alert("Senhas incompatíveis");
-  } else {
-    Csenha.setCustomValidity('');
-  }
-}
+    function validar(){
+      if(senha.value !== Csenha.value) {
+        alert("Senhas incompatíveis");
+      } else {
+        Csenha.setCustomValidity('');
+      }
+    }
 
-senha.onchange = validar();
-Csenha.onkeyup = validar();
+  senha.onchange = validar();
+  Csenha.onkeyup = validar();
 
    
 }
