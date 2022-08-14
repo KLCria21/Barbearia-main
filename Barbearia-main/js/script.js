@@ -49,10 +49,10 @@ function validar(){
 senha.onchange = validar();
 Csenha.onkeyup = validar();
 
-
-
-
+   
 }
+
+
 
 
 
