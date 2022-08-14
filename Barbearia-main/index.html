@@ -35,48 +35,36 @@
         
         <form class="row g-3" id="formulario" method="post" name="formulario"> 
           <ul class="list">
-            <div class="col-md-12">
-              <label for="inputEmail4" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="nome" placeholder="Insira seu nome">
-              
-            </div>
-          
-          
-          
-            <div class="col-md-12">
-              <label for="inputAddress" class="form-label">E-mail</label>
-              <input type="email" class="form-control" id="email" placeholder="exemplo@exemplo.com">
-            </div>
-          
+              <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Insira seu nome" required>
+              </div>
 
-          
-            <div class="col-md-12">
-            <label for="inputAddress" class="form-label">Número de Celular</label>
-            <input type="tel" class="form-control" id="cel" placeholder="(12)93456-7891">
-          </div>
-          
+              <div class="col-md-12">
+                <label for="inputAddress" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="exemplo@exemplo.com">
+              </div>
 
-             
-            <div class="col-md-12">
-              <label for="inputPassword4" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="senha" placeholder="************">
-            </div>
-            
-            
-            <div class="col-md-12">
-              <label for="inputPassword4" class="form-label">Confirmar Senha</label>
-              <input type="password" class="form-control" id="Csenha" placeholder="************">
-            </div>
+              <div class="col-md-12">
+                <label for="inputAddress" class="form-label">Número de Celular</label>
+                <input type="tel" class="form-control" id="cel" placeholder="(xx)xxxxx-xxxx">
+              </div>
+    
+              <div class="col-md-12">
+                <label for="inputPassword4" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="************" required>
+              </div>
+   
+              <div class="col-md-12">
+                <label for="inputPassword4" class="form-label">Confirmar Senha</label>
+                <input type="password" class="form-control" id="Csenha" placeholder="Pudim888" required>
+              </div>
 
-           
-
-      
-          
-          </li>
           </ul>
+          
           <hr>
           
-          <div class="footer">
+          <div class="b">
               <button type="button" class="btn btn-primary" id="botao" onclick="validar()">Enviar</button>
             
             </div>
