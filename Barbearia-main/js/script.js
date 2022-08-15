@@ -2,7 +2,7 @@ function validar() {
   
     
 }
-
+ ola
 function mascara_tel(obj){
   if(obj.value.length == 0){
       obj.value += "(";
