@@ -68,7 +68,7 @@ function validar()
    
 >>>>>>> parent of 8c30d6e (quase p)
 }
-
+ ola
 function mascara_tel(obj){
       if(obj.value.length == 0){
           obj.value += "(";
