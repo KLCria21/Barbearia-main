@@ -1,18 +1,5 @@
 function validar() {
-  var Csenha = formulario.Csenha;
-
-  var senha = document.getElementById("senha")
-    Csenha = document.getElementById("Csenha");
-
-    function validar(){
-      if(senha.value !== Csenha.value) {
-        alert("Senhas incompatíveis");
-      } else {
-        Csenha.setCustomValidity('');
-      }
-    }
-
-  senha.onchange = validar();
+  
     
 }
 
