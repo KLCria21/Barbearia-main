@@ -1,35 +1,4 @@
-function validar()
-{
-
-  var nome = formulario.nome;
-
-    if(nome.value == ""){
-        alert("nome não informado");
-        nome.focus();
-      
-
-    }
-
-  var email = formulario.email;
-
-    if(email.value == ""){
-        alert("email não informado");
-        email.focus();
-       
-
-    }
-
-  var cel = formulario.cel;
-  var regex = new RegExp(cel);
-
-    if(cel.value == ""){
-        alert("Número de celular não informado");
-        cel.focus();
-
-    }
-
-    
-
+function validar() {
   var senha = formulario.senha;
 
     if(senha.value == ""){
@@ -52,23 +21,19 @@ function validar()
     }
 
   senha.onchange = validar();
-  Csenha.onkeyup = validar();
-
-   
+  Csenha.onkeyup = validar();   
 }
 
 function mascara_tel(obj){
-      if(obj.value.length == 0){
-          obj.value += "(";
-      }
-      if(obj.value.length == 3){
-          obj.value += ")";
-      }
-      if(obj.value.length == 8){
-          obj.value += "-";
-      }
-      
-  
+  if(obj.value.length == 0){
+      obj.value += "(";
+  }
+  if(obj.value.length == 3){
+      obj.value += ")";
+  }
+  if(obj.value.length == 9){
+      obj.value += "-";
+  }
 }
 
 
@@ -105,6 +70,11 @@ function validacaoEmail(field){
     alert("E-mail invalido");
     }
 
+  }
+
+  function ma(){
+    var aba1 = document.getElementById("aba")
+    
   }
   
 
