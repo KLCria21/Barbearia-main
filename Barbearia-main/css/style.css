@@ -23,26 +23,30 @@ footer{
    
  }
 
- .abas ul{ 
-    list-style: none;
- }
- .abas li {
-   background-color: #FDCE20;
-   display: inline;  
-   border-radius: 13px;
-   padding-left: 7px;
-   padding: 10px;
-   width:50mm ; 
- }
 
- .abas li a{
-   text-decoration: none;
-   color: #0F0E13;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ .cadastro p {
+   background-color: #FDCE20;
+   text-align: center;
+   border-radius: 13px;
+   padding-right: 70px;
+   padding: 10px;
+   height: 10%;
+   width:6% ; 
+   padding-bottom: 7px;
+   float: right;
+   margin-bottom: 3em;
    
  }
 
- .abas li:hover{
+ .cadastro p a{
+   color: #0F0E13;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration: none;
+   margin-top: 30px;
+   
+ }
+
+ .cadastro p:hover{
    background-color: yellow;
 
  }
@@ -51,8 +55,12 @@ footer{
 
    background-color: #FDCE20;
    float: right;
-   padding-bottom:40% ;
-   margin-top: 20px;
+   padding-bottom:50% ;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   padding-left: 70px;
+   text-align: center;
  
  }
 
