@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 function validar() {
+<<<<<<< HEAD
 =======
 function validar()
 {
@@ -57,6 +58,9 @@ function validar()
 
   senha.onchange = validar();
 <<<<<<< HEAD
+=======
+  
+>>>>>>> 5eff00650d82408f9a6ada35a11dc7ce900bda4b
     
 =======
   Csenha.onkeyup = validar();
